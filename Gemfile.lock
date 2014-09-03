@@ -1,25 +1,31 @@
 PATH
   remote: ../rulers
   specs:
-    erik_rulers (0.0.3)
+    erik_rulers (0.0.6)
+      erubis
+      multi_json
       rack
+      sqlite3
 
 GEM
   remote: https://rubygems.org/
   specs:
     celluloid (0.15.2)
       timers (~> 1.1.0)
+    erubis (2.7.0)
     ffi (1.9.3)
-    listen (2.7.8)
+    listen (2.7.9)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    multi_json (1.10.1)
     rack (1.5.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     rerun (0.10.0)
       listen (~> 2.7, >= 2.7.3)
+    sqlite3 (1.3.9)
     timers (1.1.0)
 
 PLATFORMS
